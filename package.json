@@ -1,0 +1,23 @@
+{
+  "name": "myplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.5",
+    "excel": "^1.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
